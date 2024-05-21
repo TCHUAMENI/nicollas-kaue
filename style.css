@@ -5,12 +5,12 @@ header {
     justify-content: space-around;
     align-items: center
 ;
-    padding: 24px 0;
+    padding: 2px 0;
 }
 
 
 .cabecalho-imagem{
-    width: 5%;
+    width: 4%;
 
 }
 .cabecalho-lista-item{
@@ -22,4 +22,26 @@ header {
     margin: 0;
     padding: 0;
 }
+.escola-imagem{
+    width: 50%;
+}
 
+.escola{
+    background-image: linear-gradient(#ebebeb,#808080);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.escola-div-conteudo{
+    width: 60%;
+}
+.escola-titulo{
+    padding: 90px 0;
+}
+.estudante-todos{
+    display: flex;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
